@@ -87,4 +87,8 @@ public class Bird : MonoBehaviour
         OnBirdShot(this);
 
     }
+    public virtual void OnTap()
+    {
+        //Do nothing
+    }
 }
